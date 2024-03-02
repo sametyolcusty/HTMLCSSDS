@@ -1,0 +1,34 @@
+
+/* This will affect all the HTML elements */
+*{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* This will affect only the h1's. */
+h1{
+    color: red;
+}
+
+/* This will affect only the p's. */
+p{
+    color: darkgoldenrod;
+}
+
+/* This will affect only the element with ID titleHeading */
+#titleHeading{
+    color: blue;
+}
+
+/* This will affect only the classes with name loremParagraph */
+.loremParagraph{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+/* This will affect only the h2's which got classes called loremParagraph */
+h2.loremParagraph{
+    font-size: 25px;
+    color: red;
+}
